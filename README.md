@@ -1,4 +1,3 @@
-```markdown
 # 🧪 Selenium Python Automation
 
 This project uses **Selenium WebDriver** with **Python** to automate web browser interactions for testing or data scraping purposes.
@@ -20,8 +19,6 @@ selenium-python-project/
 └── README.md                 # Project documentation
 
 ````
-
----
 
 ## 🚀 Getting Started
 
@@ -101,6 +98,3 @@ This project is open-source under the MIT License.
 Developed by **Baskaran**
 📧 [baskarbala5185@gmail.com](baskarbala5185@gmail.com)
 🌐 [https://github.com/BASKARAN5185](https://github.com/BASKARAN5185)
-
-```
-
