@@ -14,6 +14,7 @@ class Login_Page_Test(unittest.TestCase):
     def setUpClass(cls):
         cls.driver = webdriver.Chrome()
         cls.driver.implicitly_wait(15)
+        cls.driver.minimize_window()
 
     @classmethod
     def tearDownClass(cls):
@@ -53,7 +54,12 @@ class Login_Page_Test(unittest.TestCase):
     def test_empty_usernameandpassword(self):
         self.login_page.enter_username("")
         self.login_page.enter_password("")  
-        self.login_page.click_loginbutton()            
+        self.login_page.click_loginbutton()   
+        
+    def test_forgetpassworkclick(self):
+        self.login_page.forget_pass_click()
+                     
         
 if __name__ == "__main__":
     unittest.main()
+    
